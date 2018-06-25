@@ -1,0 +1,1884 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: thesis_18/lib/classes/comments.php:82
+#: thesis_18/lib/classes/comments.php:83
+msgid " <span class=\"required\" title=\"Required\">*</span>"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "%1$s <a href=\"%2$s\" target=\"_blank\">[?]</a>"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/options_manager.php:1
+msgid "%1$s Options imported! <a href=\"%2$s\">Check out your site &rarr;</a>"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "%1$s library <a href=\"%2$s\" target=\"_blank\">[?]</a>"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/options_manager.php:1
+msgid "%1$s restored! <a href=\"%2$s\">Check out your site &rarr;</a>"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:570
+msgid "&#8212;"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:934
+msgid "&#8220;Read More&#8221; link"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "&larr; That&#8217;s your favicon."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1059
+msgid "* denotes a web-safe font.<br />G denotes a Google Font Directory font."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:815
+msgid "1 column"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:814
+msgid "2 columns"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:813
+msgid "3 columns"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/comments.php:1
+msgid "<a href=\"%s\" title=\"Log out of this account\" rel=\"nofollow\">Logout &rarr;</a>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:869
+msgid "<acronym title=\"HyperText Markup Language\">HTML</acronym> Framework"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:129
+msgid "<acronym title=\"Really Simple Syndication\">RSS</acronym> link text:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:851
+msgid "<code>noarchive</code> this page"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:850
+msgid "<code>nofollow</code> this page"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:884
+msgid "<code>noindex</code> %s pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:849
+msgid "<code>noindex</code> this page"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1422
+msgid "<strong>Note:</strong> Comment numbers will not display if you have threading <em>and</em> pagination enabled in your <a href=\"%s\">comment settings</a>."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "<strong>Note:</strong> If you make a mistake in your code while modifying a <acronym title=\"PHP: Hypertext Preprocessor\">PHP</acronym> file, saving this page <em>may</em> result your site becoming temporarily unusable. Prior to editing such files, be sure to have access to the file via <acronym title=\"File Transfer Protocol\">FTP</acronym> or other means so that you can correct the error."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/options_manager.php:1
+msgid "<strong>Oh noez!</strong> There was an error with the file upload. Please try it again, or else download a new, valid %s Options file."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1013
+msgid "<strong>Tip:</strong> To turn off teasers entirely, simply choose the largest value from the dropdown list above&#8212;that way, <em>all</em> your posts will be shown as features."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/options_manager.php:1
+msgid "<strong>Whoa there!</strong> The %1$s Options you attempted to upload are from version %2$s and are not compatible with Thesis %3$s."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/options_manager.php:1
+msgid "<strong>Whoa there!</strong> The %1$s Options you attempted to upload are not compatible with Thesis %2$s."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/options_manager.php:1
+msgid "<strong>Whoops!</strong> The file you attempted to upload is not a valid %1$s Options file. Please try uploading the file again, or else download a new, valid %1$s Options file."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "<strong>Whoops!</strong> You tried to upload an unrecognized file type. The header image uploader only accepts <code>.jpg</code>, <code>.png</code>, or <code>.gif</code> files."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "<strong>Whoops!</strong> Your favicon was not saved because you attempted to upload an improper file type. Thesis will accept favicons with a <code>.ico</code> or <code>.png</code> extension."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1339
+#: thesis_18/lib/classes/options_design.php:1362
+msgid "Above headline"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:884
+msgid "Add <code>noarchive</code> to %s pages"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:884
+msgid "Add <code>nofollow</code> to %s pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:914
+msgid "Add <code>nofollow</code> to author links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:821
+msgid "Add <code>nofollow</code> to feed link"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:804
+msgid "Add <code>nofollow</code> to home link"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:972
+msgid "Add <code>nofollow</code> to tag links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:626
+msgid "Add <code>noodp</code> to your site"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:627
+msgid "Add <code>noydir</code> to your site"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:772
+msgid "Add More Links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1079
+msgid "Add a cool shadow effect to your layout"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1344
+msgid "Add a frame to post images"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1367
+msgid "Add a frame to thumbnail images"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:636
+msgid "Add canonical <acronym title=\"Uniform Resource Locator\">URL</acronym>s to your site"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1060
+msgid "Add some personal flair to your design by using the controls below. You&#8217;ll find even more controls in the other boxes in this section, so you&#8217;ve got lots of ways to let your creativity flow!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:582
+msgid "Adding the <code>noindex</code> robot meta tag is a great way to fine-tune your site&#8217;s <acronym title=\"Search Engine Optimization\">SEO</acronym> by streamlining the amount of pages that get indexed by the search engines. The options below will help you prevent the indexing of &#8220;bloat&#8221; pages that do nothing but dilute your search results and keep you from ranking as well as you should."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:654
+msgid "Additional <code>&lt;head&gt;</code> scripts (code)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:650
+msgid "Additional Scripts"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:982
+msgid "Administration"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/options_manager.php:282
+msgid "All Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:323
+msgid "All recent posts"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1470
+msgid "Any images you upload to your <a href=\"%s\">rotator folder</a> will automatically appear in the list below."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:567
+msgid "Append site name to page titles"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:947
+msgid "Archives"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:565
+msgid "As far as <acronym title=\"Search Engine Optimization\">SEO</acronym> is concerned, this is the single most important element on your site. For all pages except the home page, Thesis will construct your <code>&lt;title&gt;</code> tags automatically according to the settings below, but you can override these settings by adding a custom <code>&lt;title&gt;</code> to any post or page via the post editing screen."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "Attention!"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:106
+msgid "Based on your <a href=\"%1$s\">current layout settings</a>, the optimal header image width is <strong>%2$d pixels</strong>. If your image is wider than this, don&#8217;t worry&#8212;Thesis will automatically resize it for you!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1341
+#: thesis_18/lib/classes/options_design.php:1364
+msgid "Before post/page content"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1340
+#: thesis_18/lib/classes/options_design.php:1363
+msgid "Below headline"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:996
+msgid "Below, you can select the number of &#8220;featured&#8221; posts to show (normal format) on your home page, and the rest of your posts will be displayed as teasers. In this context, teasers are simply boxes that take up half the width of your content area and contain whatever you specify in your <a href=\"#teaser-options\">Teaser Display Options</a>."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1044
+msgid "Body (and Content Area)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:881
+msgid "By default, Thesis adds whitespace around your layout for styling purposes. One unit of whitespace is equal to the line height of the text in your content area, and by default, Thesis adds one unit of whitespace around your layout. How many units of whitespace would you like around your layout?"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:906
+msgid "Bylines"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/comments.php:1
+msgid "Cancel reply"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:634
+msgid "Canonical <acronym title=\"Uniform Resource Locator\">URL</acronym>s"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:750
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1335
+#: thesis_18/lib/classes/options_design.php:1358
+msgid "Centered (no wrap)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:871
+msgid "Change Save Button Text"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:818
+msgid "Change your feed link text"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:571
+msgid "Character separator in titles"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Check out your site &rarr;"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/favicon.php:72
+msgid "Choose a <code>.ico</code> or <code>.png</code> image file with a square aspect ratio from your computer:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/header_image.php:109
+msgid "Choose an image from your computer:"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "Click here to remove favicon"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "Click here to remove it."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Click here to remove this header image"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "Click to read"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:840
+msgid "Column Order"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:808
+msgid "Columns"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1426
+msgid "Comment Body"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1401
+msgid "Comment Meta"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1382
+msgid "Comment Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1420
+msgid "Comment date format"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1398
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:858
+msgid "Content, Sidebar 1 <span>&darr;</span>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:844
+msgid "Content, Sidebar 1, Sidebar 2 <span>&darr;</span>"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:122
+msgid "Currently editing: <code>%s</code>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1516
+msgid "Custom Multimedia Box Code"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:674
+msgid "Custom Stylesheet Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1466
+msgid "Custom code"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1520
+msgid "Custom multimedia box code"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1281
+msgid "Custom: "
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1326
+msgid "Default Post Image Settings"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1458
+msgid "Default Settings"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1351
+msgid "Default Thumbnail Settings"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:443
+msgid "Default Widget"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1472
+msgid "Define Image Alt Tags and Links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:125
+msgid "Describe your subscription options:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/options_manager.php:270
+msgid "Design Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:622
+msgid "Directory Tags"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:962
+msgid "Disable comments on all <strong>pages</strong>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:897
+#: thesis_18/lib/classes/options_design.php:1579
+msgid "Display Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1384
+msgid "Display Settings"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1562
+msgid "Display feature box after post&hellip;"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:931
+msgid "Display full post content"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:932
+msgid "Display post excerpts"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1463
+msgid "Do not show box"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1535
+msgid "Do not use feature box"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:561
+#: thesis_18/lib/classes/options_site.php:831
+msgid "Document Head"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1329
+msgid "Don&#8217;t want Thesis to auto-crop your thumbnails? No worries&#8212;you can override this by uploading your own thumbnail image on <em>any</em> post or page. Also, it&#8217;s worth noting that you can override <em>all</em> of the settings below on the post editing screen."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/options_manager.php:224
+msgid "Download Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/comments.php:83
+msgid "E-mail"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:884
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "Easy there, homey. You don&#8217;t have admin privileges to access theme options."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "Easy there, homey. You don&#8217;t have admin privileges to change theme options."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/file_editor.php:132
+msgid "Edit selected file"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:133
+msgid "Email link and text:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1465
+msgid "Embed a video"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1601
+msgid "Embedded Scripts"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1508
+msgid "Embedded Video Code"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:676
+msgid "Enable Stylesheet"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:684
+msgid "Enable custom stylesheet"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:864
+msgid "Enable support for Windows Live Writer"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:818
+msgid "Enter a width between 300 and 934 pixels for your <strong>content column</strong>:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:824
+msgid "Enter a width between 60 and 500 pixels for <strong>sidebar 1</strong>:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:831
+msgid "Enter a width between 60 and 500 pixels for <strong>sidebar 2</strong>:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:952
+msgid "Everything&#8217;s a teaser!"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "Favicon Upload Error"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "Favicon removed!"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "Favicon updated!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1528
+msgid "Feature Box"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:994
+msgid "Features &amp; Teasers"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:645
+msgid "Feed <acronym title=\"Uniform Resource Locator\">URL</acronym> (including &#8216;http://&#8217;)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:810
+msgid "Feed Link"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1332
+#: thesis_18/lib/classes/options_design.php:1355
+msgid "Flush left with no text wrap"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1042
+msgid "Fonts, Colors, and More!"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "For security reasons, the file you are attempting to edit cannot be modified via this screen."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1537
+msgid "Full-width above content and sidebars"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1538
+msgid "Full-width above header area"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:874
+msgid "Full-width framework"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "Google Custom Search"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:174
+msgid "Google Custom Search code:"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/document.php:101
+msgid "Head on over to the <a href=\"%s\" rel=\"nofollow\">home page</a>."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:899
+msgid "Header"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Header image removed!"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Header image updated!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/document.php:100
+msgid "Hit the &#8220;back&#8221; button on your browser. It&#8217;s perfect for situations like this!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:793
+msgid "Home Link"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:829
+msgid "Home Page <acronym title=\"Search Engine Optimization\">SEO</acronym>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:992
+msgid "Home Page Display Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1353
+msgid "Horizontal position"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:963
+msgid "If comments are closed, display a message"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/loop.php:212
+msgid "If there were posts in the database, you&#8217;d be seeing them. Try <a href=\"%s\">creating a post</a>, and see if that solves your problem."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1369
+msgid "If you do not supply a thumbnail image on a particular post (in addition to or in place of a post image), the post image that you upload will be auto-cropped to these dimensions and re-saved for use as a thumbnail:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1518
+msgid "If you like, you can override this hook by placing your own custom <acronym title=\"HyperText Markup Language\">HTML</acronym> in the box below. Even if you do this, you can still access the hook on any post or page by selecting the &#8220;Access the Multimedia Box Hook&#8221; checkbox on the post editing screen."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:652
+msgid "If you need to add scripts to your document <code>&lt;head&gt;</code>, you should enter them in the box below; however, if you&#8217;re adding stat-tracking code, you should add that to the <a href=\"%s\">Stats and Scripts section below</a>."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:752
+msgid "If you&#8217;d like to include category pages in your nav menu, simply select the appropriate categories from the list below (you can select more than one)."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:871
+msgid "If you&#8217;re customizing your Thesis design, you may wish to employ a different <acronym title=\"HyperText Markup Language\">HTML</acronym> framework in order to better suit your design needs. There are two primary types of frameworks that should accommodate just about any type of design&#8212;<strong>page</strong> and <strong>full-width</strong>. By default, Thesis uses the page framework, but you can change that below."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:642
+msgid "If you&#8217;re using a service like <a href=\"%s\">Feedburner</a> to manage your <acronym title=\"Really Simple Syndication\">RSS</acronym> feed, you should enter the <acronym title=\"Uniform Resource Locator\">URL</acronym> of your feed in the box below. If you&#8217;d prefer to use the default WordPress feed, simply leave this box blank."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:665
+msgid "If you&#8217;ve got a stat-tracking script (from, say, Mint or Google Analytics), you&#8217;ll want to place it here. Anything you add here will be served after the <acronym title=\"HyperText Markup Language\">HTML</acronym> on <em>every page of your site</em>. This is the preferred position because it prevents the scripts from interrupting the page load."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Image Processing Error"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Image Upload Error"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "In order to edit your custom files, you&#8217;ll need to change the name of your <code>custom-sample</code> folder to <code>custom</code>."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1536
+msgid "In your content column"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1588
+msgid "Include cached versions of the most popular <acronym title=\"JavaScript\">JS</acronym> libraries by selecting from the list below. These libraries will be served sitewide, but you can fine-tune your <acronym title=\"JavaScript\">JS</acronym> libraries on any post or page and on your home page."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1473
+msgid "It&#8217;s a good practice to add descriptive alt tags to every image you place on your site. Use the input fields below to add customized alt tags to your rotating images."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:549
+#: thesis_18/lib/classes/options_design.php:794
+#: thesis_18/lib/admin/file_editor.php:93
+msgid "It&#8217;s time to upgrade your Thesis, which means there&#8217;s new awesomeness in your immediate future. Click the button below to fast-track your way to the awesomeness!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1017
+#: thesis_18/lib/classes/options_design.php:1584
+msgid "JavaScript"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1028
+#: thesis_18/lib/classes/options_design.php:1605
+msgid "JavaScripts (include <code>&lt;script&gt;</code> tags!)"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "Killer Recent Entries"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/comments.php:1
+msgid "Leave a Comment"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1333
+#: thesis_18/lib/classes/options_design.php:1356
+msgid "Left with text wrap"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:913
+msgid "Link author names to archives"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1285
+msgid "Link to Full Article"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/comments.php:1
+msgid "Logged in as <a href=\"%1$s\" rel=\"nofollow\">%2$s</a>."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "More"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1456
+msgid "Multimedia Box"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/comments.php:82
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:697
+msgid "Navigation Menu"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:777
+msgid "No additional links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:755
+msgid "No category page links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:608
+msgid "Noarchive"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:594
+msgid "Nofollow"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:580
+msgid "Noindex"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:997
+msgid "Number of featured posts to show"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:341
+msgid "Number of posts to show:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:548
+#: thesis_18/lib/classes/options_design.php:793
+#: thesis_18/lib/admin/file_editor.php:92
+msgid "Oooh, Exciting!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:879
+msgid "Outer Page Padding"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:873
+msgid "Page framework"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:716
+msgid "Pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1255
+msgid "Pick and choose what you want your teasers to display! Drag and drop the elements to change the order in which they appear on your site."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1509
+msgid "Place your video embed code in the box below, and it will appear in the multimedia box by default."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1530
+msgid "Placement"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1324
+msgid "Post Images and Thumbnails"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:954
+msgid "Post excerpts"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1328
+msgid "Post images are a perfect way to add more visual punch to your site. To use them, simply specify a post image in the appropriate field on the post editing screen. During the normal stream of content, post images will display full-size, and by default, they will be automatically cropped into smaller thumbnail images for use in other areas (like teasers and excerpts)."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:927
+msgid "Posts"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:859
+msgid "Publishing Tools"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/document.php:102
+msgid "Punt."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "Recent Posts"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1469
+msgid "Remember, even though you&#8217;ve disabled the multimedia box here, you can activate it on single posts or pages by using the multimedia box options on the post editing screen."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Remove Image"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/options_manager.php:239
+msgid "Restore Default Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1580
+msgid "Right now, the only thing you can do with your shiny new feature box is access a hook, <code>thesis_hook_feature_box</code>. Expect your display options to improve dramatically in a future release!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1334
+#: thesis_18/lib/classes/options_design.php:1357
+msgid "Right with text wrap"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:577
+msgid "Robots Meta Tags"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1464
+msgid "Rotating images"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:953
+msgid "Same as your home page"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:703
+msgid "Select Menu Type"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:949
+msgid "Select a display format for your archive pages:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1532
+msgid "Select a placement setting below, and then depending on your site&#8217;s configuration, you&#8217;ll be presented with different options for managing your feature box."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1386
+msgid "Select the elements that you&#8217;d like to display, and then drag and drop them into the order that you want!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:810
+msgid "Select the number of columns you want in your layout:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1413
+msgid "Set your avatar size (between 1 and 96 px)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:922
+msgid "Show <strong>post</strong> categories"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:986
+msgid "Show admin link in footer"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:919
+msgid "Show author name in <strong>page</strong> byline"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:910
+msgid "Show author name in <strong>post</strong> byline"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1416
+msgid "Show comment time"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:978
+msgid "Show default sidebar widgets"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:985
+msgid "Show edit post links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1542
+msgid "Show feature box&hellip;"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:813
+msgid "Show feed link in nav menu"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:796
+msgid "Show home link in nav menu"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1346
+msgid "Show images on archives pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1345
+msgid "Show images on single entry pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1080
+msgid "Show interior layout borders"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:921
+msgid "Show number of comments in byline"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:353
+msgid "Show number of comments?"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:942
+msgid "Show previous/next post links"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:920
+msgid "Show published-on date in <strong>page</strong> byline"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:918
+msgid "Show published-on date in <strong>post</strong> byline"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "Show recent posts from any category or your entire site"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:321
+msgid "Show recent posts from this category:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:901
+msgid "Show site name in header"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:902
+msgid "Show site tagline in header"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:971
+msgid "Show tags on index and archives pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:970
+msgid "Show tags on single entry pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1444
+msgid "Show trackback date"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:563
+#: thesis_18/lib/classes/options_site.php:577
+#: thesis_18/lib/classes/options_site.php:580
+#: thesis_18/lib/classes/options_site.php:594
+#: thesis_18/lib/classes/options_site.php:608
+#: thesis_18/lib/classes/options_site.php:622
+#: thesis_18/lib/classes/options_site.php:634
+#: thesis_18/lib/classes/options_site.php:640
+#: thesis_18/lib/classes/options_site.php:650
+#: thesis_18/lib/classes/options_site.php:663
+#: thesis_18/lib/classes/options_site.php:676
+#: thesis_18/lib/classes/options_site.php:703
+#: thesis_18/lib/classes/options_site.php:716
+#: thesis_18/lib/classes/options_site.php:750
+#: thesis_18/lib/classes/options_site.php:772
+#: thesis_18/lib/classes/options_site.php:793
+#: thesis_18/lib/classes/options_site.php:810
+#: thesis_18/lib/classes/options_site.php:831
+#: thesis_18/lib/classes/options_site.php:861
+#: thesis_18/lib/classes/options_site.php:871
+#: thesis_18/lib/classes/options_design.php:808
+#: thesis_18/lib/classes/options_design.php:840
+#: thesis_18/lib/classes/options_design.php:869
+#: thesis_18/lib/classes/options_design.php:879
+#: thesis_18/lib/classes/options_design.php:899
+#: thesis_18/lib/classes/options_design.php:906
+#: thesis_18/lib/classes/options_design.php:927
+#: thesis_18/lib/classes/options_design.php:947
+#: thesis_18/lib/classes/options_design.php:1398
+#: thesis_18/lib/classes/options_design.php:968
+#: thesis_18/lib/classes/options_design.php:976
+#: thesis_18/lib/classes/options_design.php:982
+#: thesis_18/lib/classes/options_design.php:994
+#: thesis_18/lib/classes/options_design.php:1017
+#: thesis_18/lib/classes/options_design.php:1044
+#: thesis_18/lib/classes/options_design.php:1090
+#: thesis_18/lib/classes/options_design.php:1253
+#: thesis_18/lib/classes/options_design.php:1275
+#: thesis_18/lib/classes/options_design.php:1285
+#: thesis_18/lib/classes/options_design.php:1292
+#: thesis_18/lib/classes/options_design.php:1326
+#: thesis_18/lib/classes/options_design.php:1351
+#: thesis_18/lib/classes/options_design.php:1384
+#: thesis_18/lib/classes/options_design.php:1401
+#: thesis_18/lib/classes/options_design.php:1426
+#: thesis_18/lib/classes/options_design.php:1441
+#: thesis_18/lib/classes/options_design.php:1458
+#: thesis_18/lib/classes/options_design.php:1530
+#: thesis_18/lib/classes/options_design.php:1579
+#: thesis_18/lib/classes/options_design.php:1586
+#: thesis_18/lib/classes/options_design.php:1601
+msgid "Show/hide additional information"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:862
+msgid "Sidebar 1, Content <span>&darr;</span>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:848
+msgid "Sidebar 1, Content, Sidebar 2 <span>&darr;</span>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:852
+msgid "Sidebar 1, Sidebar 2, Content <span>&darr;</span>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:976
+msgid "Sidebars"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:940
+msgid "Single entry pages"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:806
+msgid "Site Layout"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/options_manager.php:258
+msgid "Site Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1586
+msgid "Sitewide <acronym title=\"JavaScript\">JS</acronym> Libraries"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/loop.php:185
+msgid "Sorry, but no results were found."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:718
+msgid "Start by selecting the pages you want to include in your nav menu. Next, drag and drop the pages to change their display order (topmost item displays first), and if you <em>really</em> want to get crazy, you can even edit the display text on each item. <strong>Try it!</strong>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:663
+msgid "Stat and Tracking Scripts"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:661
+msgid "Stats Software/Scripts"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "Subscriptions"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/document.php:98
+msgid "Surfin&#8217; ain&#8217;t easy, and right now, you&#8217;re lost at sea. But don&#8217;t worry; simply pick an option from the list below, and you&#8217;ll be back out riding the waves of the Internet in no time."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:640
+msgid "Syndication/Feed <acronym title=\"Uniform Resource Locator\">URL</acronym>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:968
+msgid "Tagging"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1275
+msgid "Teaser Date Format"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1292
+msgid "Teaser Font Sizes"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1251
+msgid "Teasers"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:610
+msgid "The <code>noarchive</code> robot meta tag prevents search engines and Internet archive services from saving cached versions of pages on your site. Generally, people use this to protect their privacy, but there are certainly times when having access to archived versions of your pages might prove useful."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:596
+msgid "The <code>nofollow</code> robot meta tag is another useful tool for nailing down your site&#8217;s <acronym title=\"Search Engine Optimization\">SEO</acronym>. Links from pages with the <code>nofollow</code> meta tag won&#8217;t pass any juice."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1460
+msgid "The default multimedia box setting applies to your home page, archive pages (category, tag, date-based, and author-based), search pages, and 404 pages. You can override the default setting on any individual post or page by utilizing the multimedia box controls on the post editing screen."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:929
+msgid "The display setting you select below only affects your <strong>features</strong>; teasers (if you&#8217;re using them) are always displayed in excerpt format."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "The file you are attempting does not appear to exist."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1046
+msgid "The font you select here will be the main font on your site. You can tweak individual fonts and sizes below."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:678
+msgid "The only reason to deselect this option is to reduce the total number of <code>http</code> requests your site makes because this will improve your page load speed. If you&#8217;re not using your custom stylesheet, then you may consider deselecting this option."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1603
+msgid "The scripts you add here will be served after the <acronym title=\"HyperText Markup Language\">HTML</acronym> on <em>every page of your site</em>. This is the preferred position because it prevents the scripts from interrupting the page load."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/loop.php:209
+msgid "There&#8217;s nothing here."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "Thesis Custom File Editor"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "Thesis Design Options"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/favicon.php:80
+msgid "Thesis Favicon Uploader"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Thesis Header Image"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/options_manager.php:1
+msgid "Thesis Options Manager"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:884
+msgid "Thesis Site Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:719
+msgid "Thesis features automatic dropdown menus, so if you have nested pages or categories, you&#8217;ll save space <em>and</em> gain style points with your slick new nav menu!"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:707
+msgid "Thesis nav menu"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:444
+msgid "This is Sidebar %1$d. You can edit the content that appears here by visiting your <a href=\"%2$s\">Widgets panel</a> and modifying the <em>current widgets</em> in Sidebar %1$d. Or, if you want to be a true ninja, you can add your own content to this sidebar by using the <a href=\"%3$s\">appropriate hooks</a>."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:935
+msgid "This is the clickthrough text on home and archive pages that appears on any post where you use the <code>&lt;!--more--&gt;</code> tag:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:337
+msgid "Title (optional, defaults to category name):"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:563
+msgid "Title Tag Settings"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/widgets.php:68
+#: thesis_18/lib/functions/widgets.php:121
+#: thesis_18/lib/functions/widgets.php:170
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:951
+msgid "Titles only"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "To search, type and hit enter"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1449
+msgid "Trackback date format"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1441
+msgid "Trackbacks"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:667
+msgid "Tracking scripts (include <code>&lt;script&gt;</code> tags!)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:550
+#: thesis_18/lib/classes/options_design.php:795
+#: thesis_18/lib/admin/file_editor.php:94
+msgid "Upgrade Thesis"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/favicon.php:75
+#: thesis_18/lib/admin/header_image.php:112
+msgid "Upload"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/options_manager.php:256
+msgid "Upload Options"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1294
+msgid "Use the controls below to fine-tune the font sizes of your teaser elements."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:624
+msgid "Using the <code>noodp</code> robot meta tag will prevent search engines from displaying Open Directory Project (DMOZ) listings in your meta descriptions. The <code>noydir</code> tag is pretty much the same, except that it only affects the Yahoo! Directory. Both of these options are sitewide."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1360
+msgid "Vertical position"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1511
+msgid "Video embed code"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/comments.php:84
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:861
+msgid "Windows Live Writer"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:706
+msgid "WordPress nav menu"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/functions/document.php:1
+msgid "You 404&#8217;d it. Gnarly, dude."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:774
+msgid "You can insert additional navigation links on the <a href=\"%1$s\">Manage Links</a> page. To ensure that things go smoothly, you should first <a href=\"%2$s\">create a link category</a> solely for your navigation menu, and then make sure you place your new links in that category. Once you&#8217;ve done that, you can select your category below to include it in your nav menu."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:573
+msgid "You can set your home page <code>&lt;title&gt;</code> tag in the Home Page SEO box on this page. For categories and tags, visit the <a href=\"%1$s\">edit category</a> and <a href=\"%2$s\">edit tag</a> pages within WordPress."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1502
+msgid "You don&#8217;t have any images to rotate! Try adding some images to your <a href=\"%s\">rotator folder</a>, and then come back here to edit your alt tags."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "You have attempted to modify an ineligible file. Only files within the Thesis <code>/custom</code> folder may be modified via this interface. Thank you."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/comments.php:1
+msgid "You must <a href=\"%s\" rel=\"nofollow\">log in</a> to post a comment."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1517
+msgid "You&#8217;ve now activated the special multimedia box hook, <code>thesis_hook_multimedia_box</code>, and you can use this to make the multimedia box do just about anything via your custom functions file, <code>custom_functions.php</code>."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "Your <code>/custom/%s</code> file is not writable by the server, and in order to modify the file via the admin panel, Thesis needs to be able to write to this file. All you have to do is set this file&#8217;s permissions to 666, and you&#8217;ll be good to go."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/file_editor.php:156
+msgid "Your <code>custom/</code> directory does not appear to exist. Have you remembered to rename <code>/custom-sample</code>?"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_site.php:884
+msgid "Your custom stylesheet <strong>will not work</strong> until you rename your <code>/custom-sample</code> folder to <code>/custom</code>."
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/admin/header_image.php:117
+msgid "Your image could not be processed. Please go back and try again."
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1489
+msgid "[+] add link"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "author name"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "avatar"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:938
+msgid "clickthrough text"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "comment author"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "comment date"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "comment form"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "comment numbers"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "comment reply link"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "comment text"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "comments"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1164
+msgid "current background color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1148
+msgid "current link text color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1168
+msgid "current parent background color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1152
+msgid "current parent link text color"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "date"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1376
+msgid "default thumbnail height"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1372
+msgid "default thumbnail width"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "edit comment link"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "edit post link"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:801
+msgid "home link text"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:842
+msgid "home page <code>&lt;meta&gt;</code> description"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:846
+msgid "home page <code>&lt;meta&gt;</code> keywords"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:836
+msgid "home page <code>&lt;title&gt;</code> tag"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1160
+msgid "hover background color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1192
+msgid "image box background color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1156
+msgid "link background color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1288
+msgid "link display text"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1140
+msgid "link text color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1144
+msgid "link text hover color"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "link to full article"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1176
+msgid "nav border color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1172
+msgid "nav border width (px)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_site.php:874
+msgid "not recommended (heh)"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "number of comments link"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1548
+msgid "on blog page <em>only</em>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1547
+msgid "on front page <em>only</em>"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1549
+msgid "on front page and blog page"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1554
+msgid "on home page <em>only</em>"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/functions/widgets.php:447
+msgid "on this post"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1067
+msgid "page background color"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "post excerpt"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "post title"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "primary category"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1075
+msgid "primary link color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1071
+msgid "primary text color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:821
+msgid "px"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:827
+#: thesis_18/lib/classes/options_design.php:834
+msgid "px (default is 195)"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/admin/file_editor.php:146
+msgid "quick color reference"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1063
+msgid "site background color"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1558
+msgid "sitewide"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1180
+msgid "submenu width (px)"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "tags"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+#: thesis_18/lib/classes/options_design.php:1188
+msgid "text color"
+msgstr ""
+
+#. Text in function
+#: thesis_18/lib/classes/options_design.php:1617
+msgid "trackbacks"
+msgstr ""
+
+#. Text in echo
+#: thesis_18/lib/classes/options_design.php:1196
+msgid "video box background color"
+msgstr ""

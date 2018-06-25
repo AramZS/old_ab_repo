@@ -1,0 +1,137 @@
+/*
+File:			custom.css
+Description:	Custom styles for Thesis
+
+BASIC USAGE:
+
+If you have enabled the custom stylesheet in the Thesis options panel, the <body> tag 
+will be appended with the "custom" class, like so: <body class="custom">. You can use 
+the "custom" class to override *any* CSS declarations contained in the style.css file.
+
+For example, if you wish to change the default link color to green, you would add the 
+following declarations to this file:
+
+	.custom a, .custom a:visited { color: #090; }	<--- This makes links green
+	.custom a:hover { color: #00f; }				<--- This makes links blue when you mouse over them
+
+WHY THIS WORKS:
+
+By using the "custom" class, you are creating more specific CSS declarations for HTML
+elements. CSS styling is applied through rules of specificity, and because declarations
+prepended with .custom are more specific, they get applied when the page is rendered!
+
+More information about styling your Thesis installation using this file can be found
+in the User's Guide:
+	http://diythemes.com/thesis/rtfm/customizing-thesis-with-customcss/
+*/
+
+/*for Popularity Contest Sidebar Widget...get's rid of %. */
+.akpc_report span { display: none; }
+.akpc_report ol {list-style: circle; margin-left: 0.5em; line-height: 1;
+		padding-left: 1em; }
+.akpc_report li { margin-bottom: 10px;}
+
+
+/*for Shared Links posts */
+li.gReader-item { margin-bottom: 10px;}
+.gReader-notes { font-style: italic; font-family: Georgia, "Times New Roman", Times, serif; } 
+.gReader-source { display: inline; }
+
+/*colors
+#000 black
+#111
+#222 
+#888 grey
+#fff white: text
+#cc3300 dark reddish orange: a hover
+#eeaa00 yellow: header hover, h3
+#dd7700 light orange: a
+*/
+
+
+body.custom { background: #222; }
+.custom #page { background-color: #000; }
+.custom #content { color: #fff; background-color: #000; }
+.custom #sidebars { color: #fff; background-color: #222; }
+.custom .format_text p {font-family: Georgia, "Times New Roman", Times, serif; }
+.custom a { color: #dd7700; text-decoration: none; }
+.custom a:hover, .post div.comment_link a:hover, .post h2 a:hover, .post .entry a:hover, .post .entrytext a:hover { color: #cc3300; text-decoration: none; }
+
+.custom code { background: none; }
+.custom ul li.rss a { padding-left: 17px; background: url('images/feed-icon-14x14.png') left center no-repeat; }
+
+/*---:[ universal image classes ]:---*/
+.custom img.alignleft { float: left; clear: left; margin: 1em;}
+.custom img.alignright { float: right; clear: right; margin: 1em;}
+
+/*---:[ image captioning ]:---*/
+.custom .wp-caption { border-style: solid; border-color: #ddd; background-color: #222; text-align: center; font-style: italic; }
+
+/*---:[ headlines and bylines ]:---*/
+.custom .sidebar h3 {font-variant: normal; letter-spacing: normal; color: #fff; }
+	
+/*---:[ headline meta data (includes bylines) ]:---*/
+.custom .headline_meta span, .headline_meta abbr { font-style: normal; text-transform: none; letter-spacing: normal; }
+
+/*---:[ nav menu styles ]:---*/
+.custom ul#tabs li.rss a { color: #fff; padding-right: 16px; background: url('images/feed-icon-14x14.png') 100% 50% no-repeat; }
+
+/*---:[ #header styles ]:---*/
+.custom #header {margin: 0; padding: 6em 0 2em 2em; border: none; background: url('images/header_2.png') no-repeat center top;}	
+.custom #header #logo { font-weight: normal; text-transform: uppercase;}
+	.custom #header #logo a { color: #cc3300; }
+	.custom #header #logo a:hover { color: #eeaa00; }
+.custom #header #tagline { font-weight: normal; color: #fff; }
+
+/*---:[ content styles ]:---*/
+.custom .format_text p {font-family: Georgia, "Times New Roman", Times, serif;}
+.custom .format_text p { line-height: normal;}
+.custom .format_text h3 {color: #eeaa00;}
+.custom .format_text ul { list-style: disc; }
+.custom .format_text li { line-height:normal; }
+.custom .format_text ul li ul { list-style-type: circle; font-family: Georgia, "Times New Roman", Times, serif;}
+.custom .format_text ol { font-family: Georgia, "Times New Roman", Times, serif;}
+.custom .format_text a.rss { padding-left: 17px; background: url('images/feed-icon-14x14.png') left center no-repeat;}
+.custom .format_text dd {margin-left: 1em; font-family: Georgia, "Times New Roman", Times, serif;}
+.custom .format_text dt {font-weight: normal; margin-left: 0em;}
+
+/*---:[ after-post elements ]:---*/
+.custom .format_text .to_comments { color: #888; clear: both; }
+	.custom .format_text .to_comments span { color: #888; line-height: 1em; }
+	.custom .format_text .to_comments span.bracket { color: #888; }
+	.custom .format_text .to_comments a { color: #888; text-decoration: none; }
+	.custom .format_text .to_comments a:hover { text-decoration: underline; }
+
+/*---:[ home page teasers ]:---*/
+.custom .teaser p {font-family: Georgia, "Times New Roman", Times, serif;}
+.custom .teaser .teaser_author a { text-transform: none; letter-spacing: normal; color: #eeaa001; border-bottom: 1px solid #eee; }
+
+.custom .teaser .teaser_author a:hover {color:#cc3300;}
+.custom .teaser .teaser_date { text-transform: none; letter-spacing: normal; }
+.custom .teaser a.teaser_comments { text-transform: none; letter-spacing: normal; color: #888; border-bottom:none;}
+.custom .teaser a.teaser_comments:hover {text-decoration: underline;}
+
+/*---:[ sidebar styles ]:---*/
+.custom li.widget ul { list-style-type: circle; 
+	list-style-position: inside;
+	margin-left: 0.5em;
+		padding-left: 1em;
+		text-indent: -1em;
+		line-height: 1;
+}
+
+/*---:[ comment styles ]:---*/
+		.custom .comments_intro span { color: #888; line-height: 1em; }
+		.custom .comments_intro span.bracket { color: #888; }
+		dl#comment_list dt .comment_author { color: #eeaa00; font-weight: normal; }
+			.comment_time a, .edit_comment a { color: #888; }
+			.comment_time a:hover, .edit_comment a:hover { color: #888; }
+		dl#comment_list .bypostauthor { background: #222; }
+			
+/*---:[ comment form styles ]:---*/
+.custom #commentform textarea {color: #000; background: #888;}
+		
+/*---:[ footer styles ]:---*/
+.custom #footer { color:#000; margin:0; padding:0; background: url('images/footer_bg.png') no-repeat center top;}	
+.custom #footer a { color: #000; border:none; }
+.custom #footer a:hover { border-bottom: 1px solid #000;}

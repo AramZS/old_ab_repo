@@ -1,0 +1,500 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenHook 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-11 22:12-0500\n"
+"PO-Revision-Date: 2012-12-11 22:13-0500\n"
+"Last-Translator: Rick Beckman <rick.beckman@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin.php:45
+msgid "WordPress Hooks"
+msgstr ""
+
+#: ../admin.php:46
+msgid "Thesis Hooks"
+msgstr ""
+
+#: ../admin.php:50 ../admin.php:117 ../admin.php:211
+msgid "OpenHook"
+msgstr ""
+
+#: ../admin.php:74
+msgid "General"
+msgstr ""
+
+#: ../admin.php:75
+msgid "Shortcodes"
+msgstr ""
+
+#: ../admin.php:76
+msgid "Headway"
+msgstr ""
+
+#: ../admin.php:77
+msgid "Thesis 1.8.5"
+msgstr ""
+
+#: ../admin.php:78
+msgid "WordPress"
+msgstr ""
+
+#: ../admin.php:79
+msgid "Server Info"
+msgstr ""
+
+#: ../admin.php:111
+msgid ""
+"Sorry, but you do not have the appropriate permissions to view this page."
+msgstr ""
+
+#: ../admin.php:153
+#, php-format
+msgid ""
+"&copy; Copyright 2008&ndash;%1$s Rick Beckman. <a href=\"%2$s\">Open source "
+"software</a>."
+msgstr ""
+
+#: ../admin.php:189
+msgid "Select a hook to customize"
+msgstr ""
+
+#: ../admin.php:212
+msgid "Homepage"
+msgstr ""
+
+#: ../admin.php:212
+msgid "Repository Listing"
+msgstr ""
+
+#: ../admin.php:213
+msgid "Official Support"
+msgstr ""
+
+#: ../admin.php:213
+msgid "Community Support"
+msgstr ""
+
+#: ../admin.php:214
+msgid "Follow Development or Fork on GitHub"
+msgstr ""
+
+#: ../admin.php:215
+msgid "Support Development"
+msgstr ""
+
+#: ../admin.php:217
+msgid ""
+"Developing OpenHook is a labor of love. Your donation, of any size, is "
+"greatly appreciated."
+msgstr ""
+
+#: ../admin.php:218
+#, php-format
+msgid "Has OpenHook helped you? <a href=\"%s\">Leave us a good review!</a>"
+msgstr ""
+
+#: ../admin.php:219
+msgid "Credits"
+msgstr ""
+
+#: ../admin.php:221
+#, php-format
+msgid "Written by <a href=\"%s\">Rick Beckman</a>"
+msgstr ""
+
+#: ../admin.php:222
+#, php-format
+msgid "Inspired by <a href=\"%s\">K2 Hook Up</a>"
+msgstr ""
+
+#: ../admin.php:253
+msgid ""
+"Are you sure you want to migrate your OpenHook 2 settings to OpenHook 3? "
+"This will overwrite all current OpenHook 3 options."
+msgstr ""
+
+#: ../admin.php:257
+msgid ""
+"Are you sure you want to delete all old OpenHook 2 settings? This action is "
+"irreversible!"
+msgstr ""
+
+#: ../admin.php:261
+msgid ""
+"Are you sure you want to delete all OpenHook 3+ settings? This action is "
+"irreversible!"
+msgstr ""
+
+#: ../admin.php:265
+msgid ""
+"Here are just a few settings to tailor your OpenHook experience. Note that "
+"no custom actions will be processed unless you enable them below."
+msgstr ""
+
+#: ../admin.php:267 ../admin.php:293 ../admin.php:323 ../admin.php:452
+#: ../admin.php:461
+msgid "Save Changes"
+msgstr ""
+
+#: ../admin.php:270
+msgid "Active hook groups"
+msgstr ""
+
+#: ../admin.php:275
+msgid ""
+"OpenHook allows customizing several different themes&apos; hooks. To save on "
+"processing power, it will only process the hooks you specify here by "
+"enabling them on the themes of your choice. Disabling the hook groups does "
+"not delete your saved customizations."
+msgstr ""
+
+#: ../admin.php:279 ../admin.php:281
+msgid "Visualize hooks"
+msgstr ""
+
+#: ../admin.php:282
+msgid ""
+"Turning on hook visualization will output the name of each hook in use on "
+"your site in a colored box, allowing you to get a better idea of where a "
+"hook will execute at. Hook visualizations will only appear to logged in "
+"users who have the ability to access OpenHook settings."
+msgstr ""
+
+#: ../admin.php:286
+msgid "Hook page display"
+msgstr ""
+
+#: ../admin.php:288
+msgid "View all hooks at once"
+msgstr ""
+
+#: ../admin.php:289
+msgid "One at a time"
+msgstr ""
+
+#: ../admin.php:294
+#, php-format
+msgid ""
+"What about <a href=\"%1$s\"><strong>Thesis 2</strong></a>? Hooks in Thesis 2 "
+"are dynamically defined, making providing a definitive list of hooks to "
+"customize difficult. However, you don&apos;t have to wait for developers to "
+"create &amp; charge you for the &ldquo;boxes&rdquo; you need to customize "
+"your site! OpenHook has your back with <strong>OpenBox</strong>, a box "
+"without limits. It is <a href=\"%2$s\">installed for you already</a> and is "
+"ready for use in the Thesis 2 skin editor."
+msgstr ""
+
+#: ../admin.php:296
+msgid "Manage Options"
+msgstr ""
+
+#: ../admin.php:298
+msgid ""
+"Have you used previous versions of OpenHook? You have the option of "
+"importing your customizations into the OpenHook 3 structure; this will not "
+"remove your old options, allowing you to downgrade if desired. Note that "
+"upgrading from OpenHook 2 will overwrite your WordPress &amp; Thesis hook "
+"customizations made with OpenHook 3!"
+msgstr ""
+
+#: ../admin.php:300
+msgid ""
+"If you&rsquo;re satisfied with OpenHook 3, you may remove any legacy "
+"OpenHook options found in the database as well. Note that this is "
+"irreversible, and you should consider making a backup of your database (at "
+"the very least, a backup of your options table) prior to removing the legacy "
+"options."
+msgstr ""
+
+#: ../admin.php:302
+msgid ""
+"Want to start fresh with your customizations or wish to uninstall OpenHook? "
+"You can easily remove all of OpenHook&rsquo;s options with the following "
+"button. You are strongly encouraged to have a database backup available as "
+"this action is not reversible!"
+msgstr ""
+
+#: ../admin.php:321
+msgid ""
+"In order to be a full-service customization machine, OpenHook not only "
+"provides you with access to your theme&apos;s hooks but also with the means "
+"to customize your post content itself via shortcodes."
+msgstr ""
+
+#: ../admin.php:328 ../admin.php:335 ../admin.php:356
+msgid "Enable"
+msgstr ""
+
+#: ../admin.php:329
+#, php-format
+msgid ""
+"If you&apos;re using email addresses within your post content, you can "
+"disguise them from the more basic email harvesters using this shortcode. It "
+"takes an email address (e.g., &ldquo;%1$s&rdquo;) and outputs an encoded "
+"version of it, which looks ordinary to human visitors but email harvesters "
+"and other robots will see an encoded form of it (e.g., <code>%2$s</code>)."
+msgstr ""
+
+#: ../admin.php:337
+msgid "Select page"
+msgstr ""
+
+#: ../admin.php:347
+msgid "Source page"
+msgstr ""
+
+#: ../admin.php:348
+msgid ""
+"The <code>[global]</code> tag provides you a means of creating a collection "
+"of reusable snippets of text which can then be quickly used in posts without "
+"fuss. Examples: ad code for use in posts, affiliate codes, or standard "
+"disclaimers."
+msgstr ""
+
+#: ../admin.php:349
+#, php-format
+msgid ""
+"You&apos;ll first need to create a page to serve as a repository of your "
+"snippets; you don&apos;t have to publish this page, so feel free to leave it "
+"as a draft. Use the <a href=\"%1$s\">custom fields</a> of that page to add "
+"as many snippets as you want."
+msgstr ""
+
+#: ../admin.php:350
+msgid ""
+"The &ldquo;Name&rdquo; of the custom field will be how you access your "
+"global string; it is the &ldquo;key&rdquo; of this shortcode. The &ldquo;"
+"Value&rdquo; of the custom field will be your global string itself. So for "
+"example, if you have an affiliate code to AwesomeStore.com, you can create a "
+"new custom field with a name of &ldquo;awesomestore&rdquo; and a value of "
+"&ldquo;http://awesomestore.com/?ref=DA-AAK1939375713LKAJDKLAKDKDKDK,&rdquo; "
+"which you can then access in any of your posts like this: <code>"
+"[global=awesomestore]</code>."
+msgstr ""
+
+#: ../admin.php:357
+msgid ""
+"Think of the <code>[php]</code> shortcode as an in-post instance of OpenBox: "
+"You can use any markup or <abbr title=\"PHP: Hypertext Preprocessor\">PHP</"
+"abbr> code you&apos;d like. Note that code should be properly wrapped, i.e., "
+"<code>&lt;?php code(); ?&gt;</code>, and for best results, use &ldquo;"
+"Text&rdquo; view, rather than the &ldquo;Visual&rdquo; view, when editing "
+"posts with this shortcode. Only administrators may utilize <code>[php]</"
+"code>."
+msgstr ""
+
+#: ../admin.php:361
+msgid "Disable all shortcodes"
+msgstr ""
+
+#: ../admin.php:364
+msgid ""
+"If you do not use shortcodes, you can disable them here to save a bit of "
+"processor time. All shortcodes (including WordPress default shortcodes, "
+"shortcodes added by other plugins or themes, and shortcodes enabled above) "
+"will be disabled. Note that if you have used shortcodes in your posts "
+"already, the shortcodes themselves (e.g., &ldquo;[gallery]&rdquo;) will "
+"appear in your post content when shortcodes are disabled."
+msgstr ""
+
+#: ../admin.php:378
+msgid "Your Server Details"
+msgstr ""
+
+#: ../admin.php:379
+#, php-format
+msgid ""
+"When deciding what customizations to make to your site, it can be useful to "
+"know what your server supports. The below information describes your server "
+"environment. If your server is missing a feature you require, upgrade to a "
+"more powerful host, such as <a href=\"%1$s\">DreamHost</a>! Otherwise, "
+"consider contacting your own host to see if they can enable the feature(s) "
+"you want."
+msgstr ""
+
+#: ../admin.php:403
+msgid ""
+"Feature request? Support request? Bug report? You&rsquo;re invited to get in "
+"touch with me!"
+msgstr ""
+
+#: ../admin.php:404
+#, php-format
+msgid ""
+"Prior to submitting a bug report, remember the immortal advice: Don&rsquo;t "
+"panic! Help me help you by submitting <a href=\"%s\">the best possible bug "
+"reports</a> you can."
+msgstr ""
+
+#: ../admin.php:443
+#, php-format
+msgid ""
+"%1$s actions are currently <strong>disabled</strong>. When you are ready for "
+"your customizations to appear on your site, please enable the %1$s action "
+"groups in the <a href=\"%2$s\">general OpenHook settings</a>."
+msgstr ""
+
+#: ../admin.php:450
+msgid ""
+"You can freely swap between hooks without losing your customizations. When "
+"you are finished customizing, the save button will save all hook "
+"customizations at once."
+msgstr ""
+
+#: ../admin.php:453
+msgid "Hook selection:"
+msgstr ""
+
+#: ../admin.php:482
+msgid "Save all changes"
+msgstr ""
+
+#: ../admin.php:486
+msgid ""
+"Process <abbr title=\"PHP: Hypertext Preprocessor\">PHP</abbr> on this hook? "
+"(Your code must be wrapped in <code>&lt;?php ?&gt;</code> tags)"
+msgstr ""
+
+#: ../admin.php:487
+msgid "Process shortcodes on this hook?"
+msgstr ""
+
+#: ../admin.php:488
+msgid ""
+"Disable this action? This will keep your action saved, but will prevent it "
+"from being processed."
+msgstr ""
+
+#: ../admin.php:491
+msgid "Remove Default Actions"
+msgstr ""
+
+#: ../admin.php:492
+msgid ""
+"The following actions may be attached to this hook; selecting them below "
+"will remove them from this hook so that you may use them elsewhere, if you "
+"so choose. They may have already been disabled via other means, such as by a "
+"plugin. The following settings apply even if you have disabled the custom "
+"action using the above setting."
+msgstr ""
+
+#: ../admin.php:653
+msgid "You have successfully upgraded to OpenHook 3."
+msgstr ""
+
+#: ../admin.php:656 ../admin.php:823
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: ../admin.php:809
+msgid "Old options deleted."
+msgstr ""
+
+#: ../admin.php:819
+msgid "OpenHook has been uninstalled."
+msgstr ""
+
+#: ../index.php:487
+msgid "The default navigation menu"
+msgstr ""
+
+#: ../index.php:499
+msgid "Default header"
+msgstr ""
+
+#: ../index.php:535
+msgid "Displays links to the next or previous post"
+msgstr ""
+
+#: ../index.php:539
+msgid "Displays links to the next or previous pages of an archive listing"
+msgstr ""
+
+#: ../index.php:581
+msgid "Displays a list of tags applied to the post"
+msgstr ""
+
+#: ../index.php:585
+msgid "Displays a link to the comments of a post"
+msgstr ""
+
+#: ../index.php:639
+msgid "The Subscribe to Comments plugin subscription checkbox"
+msgstr ""
+
+#: ../index.php:651
+msgid "Default output for the archives template"
+msgstr ""
+
+#: ../index.php:660
+msgid "Default sample output for the custom template"
+msgstr ""
+
+#: ../index.php:672
+msgid "Displays default 404 error page title"
+msgstr ""
+
+#: ../index.php:681
+msgid "Displays default 404 error page content"
+msgstr ""
+
+#: ../index.php:720
+msgid "Displays DIYthemes attribution &amp; link"
+msgstr ""
+
+#: ../index.php:738
+msgid ""
+"Executes within your site&rsquo;s <code>head</code> section. Useful for "
+"outputting, for example, meta tags."
+msgstr ""
+
+#: ../index.php:742
+msgid ""
+"Many themes support the automatic addition of <code>link</code> tags "
+"pointing to your site&rsquo;s primary &amp; comments feeds. Disable to "
+"prevent this behavior."
+msgstr ""
+
+#: ../index.php:747
+msgid ""
+"Similar to <code>feed_links</code>, except the <code>link</code> tags output "
+"by this hook point to secondary feeds, such as category feeds."
+msgstr ""
+
+#: ../index.php:752
+msgid ""
+"Is used to queue &amp; output various scripts. Disabling this prevents most "
+"scripts from appearing in your header, allowing you to manage them all "
+"manually, if you so choose."
+msgstr ""
+
+#: ../index.php:758
+#, php-format
+msgid ""
+"Is used to output a <code>meta</code> tag crediting WordPress as the "
+"software powering your site. Removing this is a form of <a href=\"%s"
+"\">security through obscurity</a>."
+msgstr ""
+
+#: ../index.php:764
+msgid ""
+"Executed either within the footer section (<code>div#footer</code> or "
+"<code>footer</code>) or immediately before the closing <code>html</code> "
+"tag, this hook is commonly used to output stats tracking scripts or other "
+"asyncronously loaded JavaScript."
+msgstr ""
+
+#: ../index.php:768
+msgid ""
+"Is used to queue &amp; output barious scripts. Disabling this prevents most "
+"scripts from appearing in your footer, allowing you to manage them all "
+"manually, if you so choose."
+msgstr ""

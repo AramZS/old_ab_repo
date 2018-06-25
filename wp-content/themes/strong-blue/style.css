@@ -1,0 +1,208 @@
+@charset "utf-8";
+/*
+Theme Name: Strong-Blue
+Description: Clean and clear design for the decent blogger. Utilizes widgets and features to bring about an amazing look. 
+Version: 1.0
+Tags: blue, white, dark, two-columns, fixed-width, right-sidebar
+Author: Elad Domb
+Author URI: http://www.bingowebdesign.info
+
+
+965x90 Header
+
+Border Color: #054591
+Menu BG: #011d3c
+Button Border left right: #011831
+Button BG: #01224e
+
+ */ 
+ 
+ 
+/*========================================================
+CSS RESET STYLES v1.0 | 20080212 
+========================================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	text-align:center;
+	background-color:#010f1f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*========================================================
+General Styles
+========================================================*/
+
+h2, h2 a, h2 a:visited, a, a:visited { color:#08264b; text-decoration:none; }
+h1 {display:inline;}
+p , span {color:#303235;}
+li, li a, li a:visited {color:#2c2e31; text-decoration:none; }
+li a:hover {color:#406283;}
+#centerWrapper {text-align:left; margin:auto; width:965px;}
+#menubar {width:966px; height:27px; border:1px solid #054591; background-color:#011d3c;}
+
+/*========================================================
+Header Styles
+========================================================*/
+
+#header {width:965px; height:90px; background:url(images/headerBg.jpg) no-repeat; position:relative;}
+#tagline {color:#ffffff; display:inline;}
+#hTitle {font-weight:500px; margin:0px 0px 0px 18px;}
+#hTitle a {font-size:38px; color:#FFF; line-height:90px;}
+#rssButton {position:absolute; top:22px; right:60px; width:205px;}
+#rssIcon {background:url(images/rss.png) no-repeat; width:43px; height:41px; display:block; float:left; margin:0px 5px 0px 0px;}
+#rssText {padding:0px 0px 5px 0px;}
+.rssSub {margin:0px 0px 3px 0px;}
+.rssSub a, .rssSub a:visited {text-decoration:none; font-size:11px; color:#76bee4;}
+.rssSub a:hover {color:#FFF;}
+
+.menu li {float:left; display:block; height:27px; border-left:solid 1px #011831; border-right:solid 1px #011831; margin-right:2px; line-height:27px; 
+padding:0px 10px 0px 10px; background-color:#01224e; background-image:url(images/buttonBg.jpg); background-position:bottom; background-repeat:no-repeat;}
+.menu li a, .menu li a:visited {color:#FFF; text-decoration:none;}
+
+/*========================================================
+Main Area Styles
+========================================================*/
+
+#postAndSidebar {width:966px; margin-top:5px;}
+
+/*========================================================
+Poast Area Styles
+========================================================*/
+
+#postsWrapper {width:648px; background:#012041; border:solid 1px #0555af; float:left; margin-right:5px;}
+#postContent { width:638px; background:#e0e4e9; margin:5px;}
+.fixer1 {width:638px; height:1px; clear:both;}
+.fixer2 {width:638px; height:15px; margin:0px 0px 5px 0px; clear:both;}
+.postTitle {width:608px; height:40px; background:#d6dbe3; border:1px solid #afb2b6; position:relative; margin:14px 14px 9px 14px; }
+.postTitle .titleInnerDiv {width:599px; margin:8px 0px 8px 9px;}
+.postTitle h2 {font-size:16px; font-weight:600; color:#0b2c53;}
+.postSubtitle {color:#303235; font-size:11px;}
+.dateSubtitle {color:#c4d6f2; width:76px; height:23px; background:no-repeat url(images/datePannel.png); position:absolute; top:9px; right:6px; line-height:23px;
+text-align:center; font-size:11px;}
+.postMainContent {margin:0px 14px 0px 14px; line-height:14pt; font-size:11.2px; padding:0px 5px 0px 5px;}
+.readMoreBut {margin:15px 0px 0px 16px; width:70px;}
+.readMore {display:block; background:url(images/readMArraow.jpg) no-repeat right; height:12px; line-height:12px; font-size:11px; font-weight:600; width:70px;
+color:#08264b;}
+.commentBuble {float:right; margin-top:-15px; margin-right:30px;}
+.commentBuble .commentGraph {display:block; float:left; color:#a1aec2; margin:0px 3px 0px 0px; width:26px; height:21px; background:url(images/commentBbl.jpg) no-repeat; line-height:16px; text-align:center;}
+.commentTxt {line-height:21px;}
+
+/*========================================================
+Sidebar Area Styles
+========================================================*/
+
+#sidebar {width:308px; background-color:#012041; border:1px solid #0555af; float:right;}
+#innerSidebar {width:298px; background-color:#e0e4e9; margin:5px;}
+.widgetTitle {width:274px; height:30px; background-color:#d6dbe3; border:1px solid #b1b5b9; margin:12px;}
+.widgetTitle h2 {line-height:30px; color:#041d3b; font-size:14px; font-weight:400; margin-left:11px;}
+.widgetCon {margin:0px 30px 0px 30px;}
+#sideFix1 {width:298px; height:1px; clear:both;}
+#sideFix2 {width:298px; height:15px; clear:both;}
+#sidebar ul li{line-height:18px; font-size:12px;}
+
+/*========================================================
+Footer Area Styles
+========================================================*/
+
+#footer {width:963px; background:#012041; border:solid 1px #0555af; margin-bottom:5px; margin-top:4px;}
+#footerIn {width:953px; background:#e0e4e9; margin:5px; }
+.footerFix {clear:both; height:1px; width:1px;}
+.footerWidget {float:left; width:317px; margin-bottom:5px;}
+.footerWidget .widgetCon ul li {line-height:18px; font-size:12px;}
+.footerWidget .widgetCon {color:#303235;}
+
+
+/*========================================================
+Comment Area Styles
+========================================================*/
+
+#commentArea1 {width:618px; margin:0px 10px 0px 10px;}
+#comments {display:none}
+.comment  {display:block; background-color:#E5E9EF; border:1px solid #C0C4C9; padding:10px; margin:5px 0px 5px 0px;}
+.commentmetadata {float:right; line-height:35px; padding-right:10px;}
+.comment-author {float:left;}
+.comment-author cite, .comment-author span { margin-top:-15px;}
+.comment div p {clear:both; font-size:11.2px; line-height:12pt; padding-top:15px;}
+#comment {width:608px;}
+
+
+#searchform { width:220px; text-align:center; margin:auto; margin-top:15px;}
+#s {line-height:28px; height:28px; float:left; padding:0px;}	
+.hidden {display:none;}
+#searchsubmit {width:61px; height:28px; background:url(images/search61x28.jpg) no-repeat; border:none; color:#FFF;}
+
+.aligncenter
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.alignleft 
+{
+	float:left;
+	margin:0px 5px 5px 0px;
+}
+.alignright
+{
+	float:right;
+	margin:0px 0px 5px 5px;
+}
+.postMainContent  ul 
+{
+	list-style:circle;
+	margin:2px 10px 2px 35px;
+}
+.postMainContent  ol
+{
+	list-style:decimal;
+	margin:2px 10px 2px 35px;
+}

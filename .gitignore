@@ -1,0 +1,15 @@
+wp-config.php
+*cache*
+*/temp*
+wiki
+*wiki*
+wiki/
+wiki/*
+*/wiki/*
+*wiki/*
+*tmp/*
+tmp
+cache
+error_log
+wp-content/backup*
+tiki*

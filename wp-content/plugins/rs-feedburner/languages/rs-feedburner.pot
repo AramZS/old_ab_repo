@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RS FeedBurner\n"
+"POT-Creation-Date: 2014-12-16 19:00-0800\n"
+"PO-Revision-Date: 2015-03-21 15:00-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SearchPath-0: rs-feedburner\n"
+
+#: rs-feedburner.php:232
+#, php-format
+msgid ""
+"Plugin deactivated. WordPress Version %s required. Please upgrade WordPress to the latest version."
+msgstr ""
+
+#: rs-feedburner.php:298
+msgid "Your settings have been saved."
+msgstr ""
+
+#: rs-feedburner.php:299
+msgid "Your settings have not been saved."
+msgstr ""
+
+#: rs-feedburner.php:299
+msgid "Invalid value."
+msgstr ""
+
+#: rs-feedburner.php:299
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: rs-feedburner.php:334
+msgid "There was an error with your request."
+msgstr ""
+
+#: rs-feedburner.php:339
+msgid "You do not have sufficient access rights."
+msgstr ""
+
+#: rs-feedburner.php:351
+msgid ""
+"This plugin helps you redirect all inbound traffic for your feeds to your custom FeedBurner or FeedPress feed."
+msgstr ""
+
+#: rs-feedburner.php:351
+msgid ""
+"FeedBurner and FeedPress track all your feed subscriber traffic and usage and enhance your original WordPress feed."
+msgstr ""
+
+#: rs-feedburner.php:356
+#, php-format
+msgid ""
+"If you haven\'t done so already, create a <a href=%1$s>FeedBurner</a> or <a href=%2$s>FeedPress</a> feed for %3$s. This feed will handle all traffic for your posts."
+msgstr ""
+
+#: rs-feedburner.php:357
+msgid ""
+"Once you have created your FeedBurner or FeedPress feed, enter its address into the field below:"
+msgstr ""
+
+#: rs-feedburner.php:357
+msgid ""
+"It should be a complete URL, like: <strong>http://feeds.feedburner.com/YourFeed</strong> or <strong>http://feedpress.me/YourFeed</strong>"
+msgstr ""
+
+#: rs-feedburner.php:358
+#, php-format
+msgid ""
+"Optional: If you also want to use FeedBurner or FeedPress for your WordPress comments feed,</br>create a <a href=%1$s>FeedBurner</a> or <a href=%2$s>FeedPress</a> feed and then enter its address below:"
+msgstr ""
+
+#: rs-feedburner.php:365
+msgid "Donate to RS FeedBurner"
+msgstr ""
+
+#: rs-feedburner.php:366
+msgid "RS FeedBurner is provided for free."
+msgstr ""
+
+#: rs-feedburner.php:366
+msgid "If you like the plugin, consider a donation to help further its development."
+msgstr ""
+
+#: rs-feedburner.php:369
+msgid "Check out our other plugins:"
+msgstr ""
+
+#: rs-feedburner.php:370
+msgid "If you like RS FeedBurner, you might want to check out our other plugins:"
+msgstr ""
+
+#: rs-feedburner.php:371
+msgid "Anti-Spam"
+msgstr ""
+
+#: rs-feedburner.php:371
+msgid ""
+"An extremely powerful and user friendly WordPress anti-spam plugin that stops blog comment spam cold, including trackback and pingback spam. Includes spam-blocking contact form feature, and protection from user registration spam as well. WP-SpamShield is an all-in-one spam solution for WordPress. See what it's like to run a WordPress site without spam!"
+msgstr ""
+
+#: rs-feedburner.php:372
+msgid ""
+"This plugin cleans up a number of issues, doing the work of multiple plugins, improving speed, efficiency, security, SEO, and user experience. It removes junk code from the HEAD & HTTP headers, moves JavaScript from header to footer, combines/minifies/caches CSS & JavaScript files, hides the Generator/WordPress Version number, removes version numbers from CSS and JS links, and fixes the \"Read more\" link so it displays the entire post."
+msgstr ""
+
+#: rs-feedburner.php:373
+msgid ""
+"A combination of frame-breaker and scraper protection. Protect your website content from both frames and server-side scraping techniques."
+msgstr ""

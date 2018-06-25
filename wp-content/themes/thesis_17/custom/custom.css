@@ -1,0 +1,283 @@
+/*
+File:			custom.css
+Description:	Custom styles for Thesis
+
+BASIC USAGE:
+
+If you have enabled the custom stylesheet in the Thesis options panel, the <body> tag 
+will be appended with the "custom" class, like so: <body class="custom">. You can use 
+the "custom" class to override *any* CSS declarations contained in the style.css file.
+
+For example, if you wish to change the default link color to green, you would add the 
+following declarations to this file:
+
+	.custom a, .custom a:visited { color: #090; }	<--- This makes links green
+	.custom a:hover { color: #00f; }				<--- This makes links blue when you mouse over them
+
+WHY THIS WORKS:
+
+By using the "custom" class, you are creating more specific CSS declarations for HTML
+elements. CSS styling is applied through rules of specificity, and because declarations
+prepended with .custom are more specific, they get applied when the page is rendered!
+
+More information about styling your Thesis installation using this file can be found
+in the User's Guide:
+	http://diythemes.com/thesis/rtfm/customizing-thesis-with-customcss/
+*/
+
+
+
+/*colors
+#000 black
+#111
+#222 dark grey sidebar
+#333 content background
+#888 grey
+#ddd light grey text
+#fff white
+
+#cc3300 dark reddish orange: a
+#d96640 a hover
+
+#FFCD80
+#ff9900 a hover
+
+#eeaa00 yellow: header hover, h3
+#dd7700 light orange: a
+
+NEW COLORS
+#660000 dark red
+#cc3300 dark orange
+#ff9900 orange
+#ccffcc light blue
+#33cc99 bright blue
+*/
+
+
+body.custom { background: #000; }
+.custom #container {width:895px;}
+.custom #page { background-color: #000; margin-top: 18px; padding:0;}
+.custom #content { 
+	color: #ddd; 
+	background-color: #333; 
+	border: none; 
+	width:687px;
+	}
+/*.custom #content {border-right: 1px dotted #ddd;}*/
+.custom .post_box, .teasers_box { border-bottom: 1px dotted #bbb; clear: both; }
+.custom #sidebars { color: #ddd; background-color: #222; border-left: 1px dotted #ddd;}
+
+.custom #footer { border-top: 1px dotted #ddd; }
+
+.custom a { color: #FFCD80; text-decoration: none; }
+.custom a:hover, .post div.comment_link a:hover, .post h2 a:hover, .post .entry a:hover, .post .entrytext a:hover { color: #ff9900; text-decoration: underline; }
+
+.custom .fb-like {color:#eee;}
+.custom h2 {color: #ff9900;}
+
+.custom kbd {font-size:10pt;}
+
+.custom blockquote {
+	border: 1px solid #ccc; 
+	background:#eee; 
+	padding: 10px; 
+	margin:20px; 
+	color:#000;
+	background-image: url(images/quote3.gif);
+  	background-position: 5px 5px;
+  	background-repeat: no-repeat;
+	text-indent:23px;
+	padding-bottom:0px; 
+	}
+
+.custom blockquote p {margin-bottom:5px;}
+.custom .codesnip-container p {margin-bottom:0px;}
+
+/*---:[ universal image classes ]:---*/
+.custom img.alignleft { float: left; clear: left; margin: 1em;}
+.custom img.alignright { float: right; clear: right; margin: 1em;}
+
+/*---:[ image captioning ]:---*/
+.custom .wp-caption { border-style: solid; border-color: #ddd; background-color: #222; text-align: center; font-style: italic; margin:0 0 0 1em; }
+
+/*---:[ headlines and bylines ]:---*/
+.custom .sidebar h3 {font-variant: normal; letter-spacing: normal; color: #fff; }
+.custom .entry-title { color: #cc3300 } 
+.custom .entry-title a { color: #cc3300 } 
+.custom .entry-title a:hover { color: #d96640 } 
+
+/*---:[ headline meta data (includes bylines) ]:---
+#ccffcc light blue
+#33cc99 dark blue*/
+.custom .headline_meta span, .headline_meta abbr { font-style: normal; text-transform: none; letter-spacing: normal; }
+.custom .headline_meta a { color: #33cc99;}
+.custom .headline_meta a:hover { color: #ccffcc;}
+
+/*---:[ nav menu styles ]:---*/
+.custom .menu {padding-top:5px;border-left:none; border-bottom:1px dotted #ddd; height: 31px; margin-left: 0em; padding-left:10px; background:#222;}
+.custom .menu a {margin-right:10px; font-size:12pt; background:#222; border:none; text-transform:none;}
+.custom .menu li {border-bottom:0px dotted #ddd;}
+.custom .menu .tab { margin-right: 1em; }
+.custom .menu .tab-1 { border-left: 0px solid #fff; border-bottom: 0px;}
+.custom .menu .tab-2 { border-left: 0px solid #fff; border-bottom: 0px;}
+.custom .menu .current a {color: #ddd; background:#333; border-bottom: 1px solid #333;}
+.custom .menu a {margin-bottom: 0; padding: 5px;}
+.custom .menu .tab a {margin-bottom: 0; padding: 5px;}
+.custom .menu a {color:#fff; font-style: normal; letter-spacing: normal; }
+.custom .menu a:hover {text-decoration:none;background:#333;}
+.custom .submenu .item a { color: #fff; font-style: normal; text-transform: none; letter-spacing: normal; }
+.custom .submenu a:hover{color:#ccffcc;background:#222;}
+.custom ul.menu li.rss {border:none;}
+.custom ul.menu li.rss a { padding-left: 17px; background: url('images/feed-icon-14x14.png') left center no-repeat; }
+
+.custom ul.menu li.rss a:hover { text-decoration:none; padding-right:6.5px;}
+
+/*.custom ul#tabs li.rss a { color: #fff; padding-right: 16px; background: url('images/feed-icon-14x14.png') 100% 50% no-repeat; }
+
+.custom ul#tabs li.rss a:hover { text-decoration: none; }*/
+
+/*---:[ #header styles ]:---*/
+.custom #header {
+	height: 200px; 
+	margin: 0; 
+	padding:0 0 10px 0; 
+	border: 0px solid; border-color:#fff; 
+	background: url('images/crab_left.jpg') no-repeat center top;}
+.custom #header #logo { font-size:40pt; text-align:right; padding-top: 40px; padding-right:200px; font-weight: normal; text-transform: none;}
+.custom #header #logo a { color: #fff; }
+.custom #header #logo a:hover { color: #fff; text-decoration:none;}
+.custom #header #tagline { font-size:13pt; text-align:right; font-weight: normal; color: #ddd; padding-top:40px; padding-right:150px; font-style:italic;}
+
+.custom .headline_meta {font-size:15px;}
+.custom .author a:hover {color:#ccffcc; text-decoration: none;}
+
+/*---:[ content styles ]:---*/
+/*.custom .format_text p {font-family: Georgia, "Times New Roman", Times, serif;}
+#660000 dark red
+#cc3300 dark orange
+#ff9900 orange
+#ccffcc light blue
+#33cc99 bright blue
+*/
+.custom .format_text p { line-height: 1.7; word-spacing: 0.1em; font-weight: 100;}
+.custom .format_text h3 {color: #cc3300;}
+.custom .format_text ul { list-style: disc; }
+.custom .format_text li { line-height: 1.8; word-spacing: 0.1em; font-weight: 200;}
+.custom .format_text ul li ul { list-style-type: circle; } 
+.custom .format_text a.rss { padding-left: 17px; background: url('images/feed-icon-14x14.png') left center no-repeat;}
+.custom .format_text dd {margin-left: 1em;}
+.custom .format_text dt {font-weight: normal; margin-left: 0em;}
+
+/*for Shared Links posts */
+.custom li.shared { margin-bottom: 10px;}
+li.gReader-item { margin-bottom: 10px;}
+.gReader-notes { font-style: italic; }
+.gReader-source { display: inline; }
+
+/*---:[ after-post elements ]:---*/
+.custom .format_text .to_comments { color: #888; clear: both; }
+	.custom .format_text .to_comments span { color: #888; line-height: 1em; }
+	.custom .format_text .to_comments span.bracket { color: #888; }
+	.custom .format_text .to_comments a { color: #888; text-decoration: none; }
+	.custom .format_text .to_comments a:hover { text-decoration: underline; }
+
+/* tags 
+#ccffcc light blue
+#33cc99 dark blue*/
+	.post_tags { color: #666; }
+	.post_tags a { color: #33cc99; text-decoration: none; }
+	.post_tags a:hover { color: #ccffcc; text-decoration: underline; }
+
+/*---:[ home page teasers ]:
+#ccffcc light blue
+#33cc99 bright blue
+*/
+.custom .teaser p {font-weight: 200;}
+.custom .teaser .teaser_author a { text-transform: none; letter-spacing: normal; color: #33cc99; border-bottom: 1px solid #eee; }
+.custom .teaser .teaser_author a:hover {color:#ccffcc; text-decoration: none;}
+.custom .teaser .teaser_date { text-transform: none; letter-spacing: normal; }
+.custom .teaser a.teaser_comments { text-transform: none; letter-spacing: normal; color: #888; border-bottom:none;}
+.custom .teaser a.teaser_comments:hover {text-decoration: underline;}
+
+.custom .prev_next {color:#ddd;}
+
+/*---:[ sidebar styles ]:---
+#660000 dark red
+#cc3300 dark orange
+#ff9900 orange
+#ccffcc light blue
+#33cc99 bright blue*/
+
+.custom .widget p {
+	margin-bottom:10px;
+}
+
+.custom .widget a.sub_twit { 
+padding: 10px 0 10px 35px;
+background: url('images/twitterlogo2.jpg') 0 50% no-repeat;
+color: #cc3300;
+text-decoration:none;
+}
+
+.custom .widget a:hover.sub_twit { text-decoration:underline;}
+
+.custom li.widget ul { 
+	list-style-type: circle; 
+	color:#ddd;
+	list-style-position: inside;
+	margin-left: 0.5em;
+	padding-left: 1em;
+	text-indent: -1em;
+	line-height: 1;
+}
+
+/*Contributor list*/
+.custom li.widget_authors a {color:#33cc99;}
+.custom li.widget_authors a:hover {color:#ccffcc;}
+
+/*recent Comments widget*/
+.custom #get_recent_comments_wrap li { line-height: 1.3; word-spacing: 0.1em; font-weight: 200;}
+.custom li.akpc-widget a {color: #cc3300;}
+.custom li.akpc-widget a:hover {color: #d96640;}
+
+/*for Popularity Contest Sidebar Widget...get's rid of %. */
+.akpc_report span { display: none; }
+.akpc_report ol {list-style: circle; margin-left: 0.5em; line-height: 1.2;
+		padding-left: 1em; color:#ddd;}
+.akpc_report li { margin-bottom: 10px;}
+
+
+/*---:[ comment styles ]:---
+#660000 dark red
+#cc3300 dark orange
+#ff9900 orange
+#ccffcc light blue
+#33cc99 bright blue*/
+
+.custom #comments {margin:1em;}
+	.custom .comments_intro span { color: #888; line-height: 1em; }
+	.custom .comments_intro span.bracket { color: #888; }
+	dl#comment_list dt .comment_author { color: #33cc99; font-weight: normal; }
+	.custom .comment_author a { color: #33cc99; text-decoration: underline; }
+	.custom .comment_author a:hover { color: #ccffcc; }
+	.custom .comment_time a, .edit_comment a { color: #888; }
+	.custom .comment_time a:hover, .edit_comment a:hover { color: #fff;}
+	.custom .comment_time a:hover {color: #fff; text-decoration: none;}
+	dl#comment_list .bypostauthor { background: #222; }
+			
+/*---:[ comment form styles ]:---*/
+.custom #commentform textarea {color: #000; background: #888;}
+
+.custom div#respond input#acp-preview {font-weight: normal; color: #111; background: url('../lib/images/submit-bg.gif'); border: 3px double #999; border-top-color: #ccc; border-left-color: #ccc; cursor: pointer; width: auto !important; overflow: visible; }
+.custom div#respond input#acp-preview:hover { color: #cc3300; }
+
+.custom input.form_submit { font-weight: bold; color: #111; background: url('../lib/images/submit-bg.gif'); border: 3px double #999; border-top-color: #ccc; border-left-color: #ccc; cursor: pointer; width: auto !important; overflow: visible; }
+.custom #commentform input.form_submit { border-width: 3px; }
+.custom input.form_submit:hover { color: #cc3300; }
+
+/*---:[ footer styles ]:---*/
+/*.custom #footer { color:#000; margin:0; padding:0; background: url('images/footer_bg.png') no-repeat center top;}
+*/
+.custom #footer { color:#ddd; margin:0; padding:0; background:#222;}
+.custom #footer a { color: #ddd; border:none; }
+.custom #footer a:hover { color:#fff; border-bottom: 0px solid #ddd; text-decoration:underline;}

@@ -1,0 +1,374 @@
+/*
+File:			custom.css
+Description:	Custom styles for Thesis
+
+BASIC USAGE:
+
+If you have enabled the custom stylesheet in the Thesis options panel, the <body> tag 
+will be appended with the "custom" class, like so: <body class="custom">. You can use 
+the "custom" class to override *any* CSS declarations contained in the style.css file.
+
+For example, if you wish to change the default link color to green, you would add the 
+following declarations to this file:
+
+	.custom a, .custom a:visited { color: #090; }	<--- This makes links green
+	.custom a:hover { color: #00f; }				<--- This makes links blue when you mouse over them
+
+WHY THIS WORKS:
+
+By using the "custom" class, you are creating more specific CSS declarations for HTML
+elements. CSS styling is applied through rules of specificity, and because declarations
+prepended with .custom are more specific, they get applied when the page is rendered!
+
+More information about styling your Thesis installation using this file can be found
+in the User's Guide:
+	http://diythemes.com/thesis/rtfm/customizing-thesis-with-customcss/
+*/
+
+/*colors
+* Cyan: #04BEE6
+* Yellow: #F5CB3F
+* Purple: #7B77B9
+* Black: #000
+* White: #FFF
+* Gray: #999 and #CCC and #666
+*/
+
+.custom .format_text .wp-polls-ans input {
+border-width:0.071em;
+padding:0.214em;
+width:auto;
+}
+
+/*body.custom { background: #fff url('images/background.jpg') no-repeat center top}*/
+.custom #container {width:960px;}
+.custom #page { background-color: #000; margin-top: 0px; padding:0;}
+.custom #content { 
+	color: #ccc; 
+	background-color: #000; 
+	border: none; 
+	padding-left:0px;
+	margin-top:20px;
+	border-right:none;
+	border-bottom:none;
+	width:720px;
+	}
+.custom .teasers_box {width:720px; margin:0px;}
+.custom .post_box, .teasers_box { border-bottom: 1px dotted #bbb; clear: both; }
+.custom #sidebars { 
+	background-color: #333; 
+	margin-top:20px;
+	padding:0px;
+	width: 237px;
+	border: 1px solid #666;}
+
+.custom #footer { border-top: 1px dotted #ddd; }
+
+/*link color and hover*/
+.custom a { color: #F5CB3F; text-decoration: none; }
+.custom a:hover, .post div.comment_link a:hover, .post h2 a:hover, .post .entry a:hover, .post .entrytext a:hover { text-decoration: underline; }
+.custom blockquote a {color: #cc6600; !important}
+
+.custom .fb-like {color:#eee;}
+
+.custom kbd {font-size:10pt;}
+
+.custom blockquote {
+	border: 1px solid #000; 
+	background: #ccc; 
+	padding: 10px; 
+	margin: 20px; 
+	color: #000;
+	background-image: url(images/quote3.gif);
+  	background-position: 5px 5px;
+  	background-repeat: no-repeat;
+	text-indent:0px;
+	padding-bottom:0px; 
+	a color:#CC6600 !important;
+	}
+
+.custom blockquote ol {color:#000;}
+.custom .format_text blockquote p {margin-bottom:5px; color:#000; text-indent:25px;}
+.custom .codesnip-container p {margin-bottom:0px;}
+
+/*---:[ form inputs ]:---*/
+.custom input, textarea #amazon { width: 85% }
+.custom input.image {background: none; border-style:none; }
+
+/*---:[ universal image classes ]:---*/
+.custom img.alignleft { float: left; clear: left; margin: 1em;}
+.custom img.alignright { float: right; clear: right; margin: 1em;}
+
+/*---:[ image captioning ]:---*/
+.custom .wp-caption { border-style: solid; border-color: #ddd; background-color: #222; text-align: center; font-style: italic; margin:0 0 0 1em; }
+
+/*---:[ headlines and bylines ]:---*/
+.custom .entry-title { color: #04BEE6; font-weight: normal; font-size:20px;} 
+.custom .entry-title a { color: #04BEE6 } 
+.custom .headline_area h1 {color: #04BEE6; font-weight: normal; font-size:20px;} 
+/*.custom .entry-title {font-family: "Andale Mono", "Lucida Console", "Monaco", monospace;}*/
+
+/*---:[ headline meta data (includes bylines) ]:---*/
+.custom .headline_meta {
+	font-family:"Arial";
+	font-size:15px;
+	color:#999;}
+.custom .headline_meta span, .headline_meta abbr { font-style: normal; text-transform: none; letter-spacing: normal; }
+.custom .headline_meta a { color: #fff; border-bottom:none; font-style:italic;}
+.custom .headline_meta a:hover {color:#fff; text-decoration: underline;}
+
+/*---:[ nav menu styles ]:---*/
+.custom .menu .tab {padding:0; margin-bottom:0px;}
+.custom .menu {
+	padding-top:10px;
+	border-left:none; 
+	border-bottom: 5px solid #7B77B9; 
+	margin-left: 0em; 
+	padding-left: 20px; 
+	background:#000;
+	width: 698px;
+	}
+.custom .submenu {border:none;}
+
+
+
+.custom .submenu .item a {
+	font-family: "Andale Mono", "Lucida Console", "Monaco", monospace;
+	margin: 0px 3px 0 3px; 
+	padding: 1px 15px 1px 15px; 
+	background: #fff;
+	color: #000;
+	font-weight: 500; 
+	width: 152px;  /*	just long enough for about jessica*/
+	}
+	
+.custom .submenu .item-1 a {margin-top: 6px;}
+/*to accomodate bar under main menu*/
+
+.custom .submenu .item a:hover {color:#fff; font-weight:normal;}
+.custom .menu a {
+	font-family: "Andale Mono", "Lucida Console", "Monaco", monospace;
+	margin: 0 3px 0px 3px; 
+	padding: 1px 15px 2px 15px; 
+	font-size: 16px;
+	font-weight: normal; 
+	color: #fff;
+	border: none; 
+	text-transform: none;
+	background: #000;
+	}
+.custom .menu .current a {
+	color: #fff; 
+	background: #7B77B9; 
+}
+.custom .menu a:hover {
+	text-decoration:none;
+	background: #55527F;
+/*		background: #7B77B9;*/
+	border:none;
+	}
+
+/*---:[ #header and Banner styles ]:---*/
+.custom #header {
+	height: 180px; 
+	margin: 0; 
+	padding: 0; 
+	background: url('images/header.jpg') no-repeat center top;
+	background: url('images/header-stripe.jpg') no-repeat center top;}
+.custom #header #logo {
+	font-family: "Andale Mono", "Lucida Console", "Monaco", monospace;
+	font-size: 60px; 
+	text-align: left; 
+	padding-top: 55px; 
+	margin-left: 20px;
+	font-weight: normal;
+	letter-spacing:5px; 
+	text-transform: none;
+}
+.custom #header #logo a { color: #fff; }
+.custom #header #logo a:hover { color: #fff; text-decoration:none;}
+
+.custom #header #tagline { 
+	font-family: "Andale Mono", "Lucida Console", "Monaco", monospace;
+	font-size: 15px; 
+	text-align: right; 
+	font-weight: normal; 
+	color: #ddd; 
+	margin-top: -30px; 
+	margin-right:20px;
+	font-style: italic;
+}
+
+/*---:[ content styles ]:---*/
+.custom .format_text p {
+	font-family:"Arial";
+	color:#ccc;
+	font-size: 14px; 
+	line-height: 1.6; 
+	word-spacing: 0.1em; 
+	font-weight: 100;}
+.custom .format_text h1 {color: #04BEE6; font-weight: normal; font-size:20px; margin-bottom:0.5em;} 
+.custom .format_text h2 {font-size: 18px; color: #fff; margin-top:1em;}
+.custom .format_text h3 {color: #fff; margin-top:1em;}
+.custom .format_text p strong {font-weight: bold;}
+.custom .format_text ul strong {font-weight: bold;}
+.custom .format_text ul { list-style: disc; }
+.custom .format_text li { line-height: 1.8; word-spacing: 0.1em; font-weight: 200;}
+.custom .format_text ul li ul { list-style-type: circle; } 
+.custom .format_text a.rss { padding-left: 17px; background: url('images/feed-icon-14x14.png') left center no-repeat;}
+
+.custom .format_text dd {margin-left: 1em;}
+.custom .format_text dt {font-weight: bold; margin-left: 0em;}
+.custom .format_text ol {padding:10px;}
+
+/*.custom .format_text a.ab {color: #fff; text-decoration: none; }
+.custom .format_text a:hover.ab {text-decoration: underline; }
+*/
+/*for Shared Links posts */
+.custom li.shared { margin-bottom: 10px;}
+.custom li.gReader-item { margin-bottom: 10px;}
+.custom .gReader-notes { font-style: italic; }
+.custom .gReader-source { display: inline; }
+
+/*---:[ after-post elements ]:---*/
+.custom .format_text .to_comments { color: #888; clear: both; }
+.custom .format_text .to_comments span { color: #888; line-height: 1em; }
+.custom .format_text .to_comments span.bracket { color: #888; }
+.custom .format_text .to_comments a { color: #888; text-decoration: none; }
+.custom .format_text .to_comments a:hover { text-decoration: underline; }
+
+/* tags */
+.custom .format_text .post_tags { color: #999; }
+.custom .post_tags a { color: #fff; text-decoration: none; }
+.custom .post_tags a:hover { color: #fff; text-decoration: underline; }
+
+/*---:[ home page teasers ]:*/
+.custom .teaser p {font-weight: 200; font-size:13px; margin-top:0.5em;}
+.custom .teaser .teaser_author a { text-transform: none; letter-spacing: normal; color: #fff; border-bottom: none; }
+.custom .teaser .teaser_author a:hover {color:#fff; text-decoration: underline;}
+.custom .teaser .teaser_date { text-transform: none; letter-spacing: normal; }
+/*.custom .teaser a.teaser_comments { text-transform: none; letter-spacing: normal; color: #888; border-bottom:none;}
+.custom .teaser a.teaser_comments:hover {text-decoration: underline;}*/
+
+/*.custom .teaser .format_teaser .to_comments p {margin-top: 1em;}*/
+.custom .teaser .to_comments span.bracket { color: #888; }
+.custom .teaser .to_comments a { text-decoration: none; text-transform: none; letter-spacing: normal; color: #888; border-bottom:none;}
+.custom .teaser .to_comments a:hover {text-decoration: underline;}
+
+.custom .prev_next {color:#ddd;}
+
+/*---:[ sidebar styles ]:---*/
+.custom .sidebar h3 {
+	font-family: "Andale Mono", "Lucida Console", "Monaco", monospace;
+	font-size: 16px;
+	font-variant: normal; 
+	letter-spacing: normal; 
+	color: #fff; }
+
+.custom .sidebar {
+	color:#999;
+}
+
+.custom .sidebar .widget a {color:#fff;}
+.custom .sidebar .widget a:hover {color:#fff; text-decoration:underline;}
+
+.custom .sidebar .widget_links a { color: #F5CB3F; text-decoration: none; }
+.custom .sidebar .widget_links a:hover { color: #F5CB3F; text-decoration: underline; }
+
+.custom .sidebar .widget {
+	font-size: 14px;
+}
+
+.custom ul.sidebar_list {
+	padding:25px 20px 0 20px;
+	}
+
+.custom li.widget ul { 
+	list-style-type: circle; 
+	color:#999;
+	list-style-position: inside;
+	margin-left: 0.5em;
+	padding-left: 1em;
+	text-indent: -1em;
+	line-height: 1;
+}
+
+.custom .widget p {
+	margin-bottom:10px;
+}
+
+.custom .widget a.rss { 
+	padding-left: 17px; 
+	background: url('images/feed-icon-14x14.png') left center no-repeat;
+	text-decoration:none;
+	color:#fff;
+}
+
+.custom .widget a.email { 
+	padding-left: 17px; 
+	background: url('images/icon_email.gif') left center no-repeat;
+	text-decoration:none;
+	color:#fff;
+}
+
+.custom .widget a.facebook { 
+	padding-left: 17px; 
+	background: url('images/facebook_logo_14x14.gif') left center no-repeat;
+	text-decoration:none;
+	color:#fff;
+}
+
+.custom .widget a.sub_twit { 
+	padding: 10px 0 10px 17px;
+	background: url('images/twitter_logo_14x14.gif') 0 50% no-repeat;
+	text-decoration:none;
+	color:#fff;
+}
+
+/*recent Comments widget*/
+.custom #get_recent_comments_wrap li { line-height: 1.4; word-spacing: 0.1em; font-weight: 200;}
+/*.custom li.akpc-widget a {color: #cc3300;}
+.custom li.akpc-widget a:hover {color: #d96640;}
+*/
+/*for Popularity Contest Sidebar Widget...get's rid of %. */
+.akpc_report span { display: none; }
+.akpc_report ol {list-style: circle; margin-left: 0.5em; line-height: 1.2;
+		padding-left: 1em; color:#ddd;}
+.akpc_report li { margin-bottom: 10px;}
+
+
+/*---:[ comment styles ]:---*/
+.custom #comments {margin:1em;}
+	.custom .comments_intro span { color: #888; line-height: 1em; }
+	.custom .comments_intro a {color:#fff;}
+	.custom .comments_intro span.bracket { color: #888; }
+	dl#comment_list dt .comment_author { color: #04BEE6; font-weight: normal; }
+	.custom .comment_author a { color: #04BEE6; text-decoration: underline; }
+	.custom .comment_author a:hover { color: #04BEE6; }
+	.custom .comment_time a, .edit_comment a { color: #888; }
+	.custom .comment_time a:hover, .edit_comment a:hover { color: #fff;}
+	.custom .comment_time a:hover {color: #fff; text-decoration: none;}
+	dl#comment_list .bypostauthor { background: #222; }
+			
+/*---:[ comment form styles ]:---*/
+.custom #commentform textarea {color: #000; background: #888;}
+.custom #commentform a {color: #fff}
+
+.custom div#respond input#acp-preview {font-weight: normal; color: #111; background: url('../lib/images/submit-bg.gif'); border: 3px double #999; border-top-color: #ccc; border-left-color: #ccc; cursor: pointer; width: auto !important; overflow: visible; }
+.custom div#respond input#acp-preview:hover { color: #cc3300; }
+
+.custom input.form_submit { font-weight: bold; color: #111; background: url('../lib/images/submit-bg.gif'); border: 3px double #999; border-top-color: #ccc; border-left-color: #ccc; cursor: pointer; width: auto !important; overflow: visible; }
+.custom #commentform input.form_submit { border-width: 3px; }
+.custom input.form_submit:hover { color: #cc3300; }
+
+/*---:[ trackback styles ]:---*/
+.custom #trackback_list a {color:#F5CB3F;}
+
+/*---:[ after post nav links ]:---*/
+.custom .post_nav a {color:#fff;}
+
+/*---:[ footer styles ]:---*/
+
+.custom #footer { color:#ddd; margin:0; padding:0; background:#fff url('images/footer.jpg');}
+.custom #footer a { color: #ddd; border:none; }
+.custom #footer a:hover { color:#fff; border-bottom: 0px solid #ddd; text-decoration:underline;}

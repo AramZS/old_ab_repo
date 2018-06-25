@@ -1,0 +1,9 @@
+.main h3, .sidebar h3 { color: black; background-color: #e5f3ff; padding: 4px 8px; }
+/* .sidebar styling from http://wordpress-plugins.feifei.us/hashcash/ */
+.sidebar { border-right: 2px solid #e5f3ff; width: 250px; float: left; padding: 0px 20px 0px 10px; margin: 0px 20px 0px 0px; }
+.main { float: left; width: 600px; } 
+.main.phpinfo { width: 100%; }
+.main textarea { width: 100%; height: 250px; }
+#nav h3 { border-bottom: 1px solid #ccc; padding-bottom: 0; }
+.wrap .footer { text-align: center; font-size: .85em; clear: both; }
+.form-table th { width: 120px; }

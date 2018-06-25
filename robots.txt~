@@ -1,0 +1,114 @@
+# This is a robot.txt file for Tiki to tell all search bots that we don't want them to crawl in the paths beginning with the strings below.
+# For an installation in a subdirectory, you have to copy this file in root of your domain and add /yoursubdirname on each line.
+#
+# (c) Copyright 2002-2010 by authors of the Tiki Wiki/CMS/Groupware Project
+# 
+# All Rights Reserved. See copyright.txt for details and a complete list of authors.
+# Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See license.txt for details.
+# $Id: robots.txt 31065 2010-12-05 00:33:41Z marclaporte $
+
+User-agent: *
+# Uncomment the following line to indicate to robots __not__ to crawl your site.
+# Disallow: /
+#
+# This is to slow down any crawling so as not to put pressure on your server
+Crawl-Delay: 30
+Disallow: /wiki/backups/
+Disallow: /wiki/css/
+Disallow: /wiki/db/
+Disallow: /wiki/doc/
+Disallow: /wiki/dump/
+Disallow: /wiki/images/
+Disallow: /wiki/img/
+Disallow: /wiki/installer/
+Disallow: /wiki/lang/
+Disallow: /wiki/lib/
+Disallow: /wiki/maps/
+Disallow: /wiki/mods/
+Disallow: /wiki/modules/
+Disallow: /wiki/pics/
+Disallow: /wiki/popups/
+Disallow: /wiki/styles/
+Disallow: /wiki/temp/
+Disallow: /wiki/templates/
+Disallow: /wiki/templates_c/
+Disallow: /wiki/tests/
+Disallow: /wiki/tiki_tests/
+Disallow: /wiki/about.php
+Disallow: /wiki/get_strings.php
+Disallow: /wiki/tiki-admin
+Disallow: /wiki/tiki-all_languages.php
+Disallow: /wiki/tiki-backlinks.php
+Disallow: /wiki/tiki-browse_categories.php
+Disallow: /wiki/tiki-calendar.php
+Disallow: /wiki/tiki-editpage.php
+Disallow: /wiki/tiki-index.php?page=SandBox
+Disallow: /wiki/tiki-install.php
+Disallow: /wiki/tiki-lastchanges.php
+Disallow: /wiki/tiki-list_file_gallery.php
+Disallow: /wiki/tiki-likepages.php
+Disallow: /wiki/tiki-listpages.php
+Disallow: /wiki/tiki-login_scr.php
+Disallow: /wiki/tiki-orphan_pages.php
+Disallow: /wiki/tiki-pagehistory.php
+Disallow: /wiki/tiki-print.php
+Disallow: /wiki/tiki-print_article.php
+Disallow: /wiki/tiki-print_blog_post.php
+Disallow: /wiki/tiki-print_multi_pages.php
+Disallow: /wiki/tiki-print_pages.php
+Disallow: /wiki/tiki-register.php
+Disallow: /wiki/tiki-share.php
+Disallow: /wiki/tiki-slideshow.php
+Disallow: /wiki/tiki-slideshow2.php
+Disallow: /wiki/tiki-tell_a_friend.php
+Disallow: /wiki/tiki-user_information.php
+Disallow: /wiki/tiki-view_cache.php
+
+# Disallow mobile
+Disallow: /wiki/tiki-*.php?*mode=mobile*
+Disallow: /wiki/*&mode=mobile*
+
+# Disallow fullscreen mode
+Disallow: /wiki/tiki-*.php?*fullscreen=y*
+Disallow: /wiki/*&fullscreen=y*
+
+# Disallow old wiki
+Disallow: /wiki-v1
+
+# Word Press Content
+Disallow: /wp-admin
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /wp-includes
+Disallow: /cgi-bin
+Disallow: ?wptheme=
+Disallow: /xmlrpc.php/
+Disallow: /feed
+Disallow: /trackback
+Disallow: /comments
+Disallow: /category/*/*
+Disallow: /tag/
+Disallow: */trackback
+Disallow: */comments
+
+Disallow: /macsing/wp-admin
+Disallow: /macsing/wp-content/plugins
+Disallow: /macsing/wp-content/cache
+Disallow: /macsing/wp-content/themes
+Disallow: /macsing/wp-includes
+Disallow: /macsing/cgi-bin
+Disallow: /macsing?wptheme=
+Disallow: /macsing/xmlrpc.php/
+Disallow: /macsing/feed
+Disallow: /macsing/trackback
+Disallow: /macsing/comments
+Disallow: /macsing/category/*/*
+Disallow: /macsing/tag/
+Disallow: /macsing/*/trackback
+Disallow: /macsing/*/comments
+
+User-agent: SiteSnagger
+Disallow: /
+User-agent: WebStripper
+Disallow: /
